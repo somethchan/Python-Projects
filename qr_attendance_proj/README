@@ -11,4 +11,4 @@ If the IP is among the list of permitted IPs, the middle triggers blocking code 
 
 Necessary Dependencies
 pip3 install qrcode pandas pillow rsa msal requests
-
+pip install fastapi uvicorn[standard] pydantic ipaddress
