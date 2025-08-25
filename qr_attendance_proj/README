@@ -1,3 +1,14 @@
+How the script works:
+
+1. Using uvicorn to listen for incoming HTTP requests
+uvicorn app:app --host <mail_server_ip> --port <listen_port> --workers <num_connections>
+
+The middleware code intercepts the http process and checks if the requestor IP is part of a permitted IP list in `http_listener.py`.
+If the IP is among the list of permitted IPs, the middle triggers blocking code or sequentially executed code. Therefore, the number of workers defined for `--workers` correlates to the number of concurrent sessions are available. 
+
+2. 
+
+
 Necessary Dependencies
 pip3 install qrcode pandas pillow rsa msal requests
 
