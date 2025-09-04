@@ -57,10 +57,10 @@ qr_gen(df_1,date)
 prompt_user("Proceed with mass mailing")
 
 # [Configuration]: SMTP Server and sender mail configurations
-smtp_server ='sample.dns.ip'
+smtp_server ='SMTP SERVER HERE.'
 smtp_port = 25
 sender_email = 'attendance.noreply@cit.lcl'
-department = 'Department of Computer and Information Technology'
+department = 'Computer and Information Technology'
 course = 'CNIT34500'
 current_directory = os.getcwd()
 
