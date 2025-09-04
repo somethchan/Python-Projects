@@ -57,7 +57,7 @@ qr_gen(df_1,date)
 prompt_user("Proceed with mass mailing")
 
 # [Configuration]: SMTP Server and sender mail configurations
-smtp_server ='citmail.tech.purdue.edu'
+smtp_server ='sample.dns.ip'
 smtp_port = 25
 sender_email = 'attendance.noreply@cit.lcl'
 department = 'Department of Computer and Information Technology'

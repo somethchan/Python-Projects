@@ -7,9 +7,9 @@ app = FastAPI(title="Listener API", version='0.1.1')
 
 QR_SCRIPT = "/opt/jobs/qr_gen.py"
 
-# Define list of permitted IPs
+# Define list of permitted IPs (127.0.0.1 are placeholder IPs)
 IP_ALLOWED = [ipaddress.ip_network(var) for var in [
-    "44.3.2.28/32" # TAremote IP 1
+    "127.0.0.1/32" # TAremote IP 1
     # "127.0.0.1/32" # TAremote IP 2
 ]]
 
